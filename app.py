@@ -10,6 +10,8 @@ def main():
 
         st.markdown(':orange[User Information]')
         st.text(f'NB:This prediction is based on a machine learning model with 83% accuracy score')
+        st.markdown("---")
+
         with st.container():
             col1, col2 = st.columns(2)
             fname = col1.text_input('First Name', placeholder='Enter your first name here')
