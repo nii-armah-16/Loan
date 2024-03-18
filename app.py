@@ -124,6 +124,7 @@ def main():
                      with st.spinner('Wait for it...'):
                         time.sleep(1.5)                        
                         st.success('# Hello {} {} you qualify for a loan'.format(fname,lname), icon="✅")
+                        st.text(f'This prediction is based on a machine learning model with 83% accuracy score')
 
                 elif result[0] == 0:
                      with st.spinner('Wait for it...'):
